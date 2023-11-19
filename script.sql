@@ -1,6 +1,8 @@
+go
 create database  EstoqueNV;
 go
 USE EstoqueNV
+go
 CREATE TABLE Corredor (
     codigo INT IDENTITY(1,1) PRIMARY KEY,
     descricao VARCHAR(200)
