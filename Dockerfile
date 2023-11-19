@@ -2,6 +2,7 @@ FROM mcr.microsoft.com/mssql/server:2022-latest
 ENV ACCEPT_EULA=Y
 ENV SA_PASSWORD=Teste01&
 
+user root
 RUN mkdir -p /usr/work
 COPY *.sql /usr/work
 
